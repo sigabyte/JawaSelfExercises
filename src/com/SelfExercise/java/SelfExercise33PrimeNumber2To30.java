@@ -1,12 +1,12 @@
 package com.SelfExercise.java;
 
-public class SelfExercise31Methods {
+public class SelfExercise33PrimeNumber2To30 {
 	public static void main(String[] args) {
-		// int ;
 
-		for (int i = 2; i <= 50; i++) {
+		
+		for (int i = 2; i <= 30; i++) {
 
-			if (isPrime(i) == true) {
+			if (isPrime(i) == false) {
 				System.out.println(i);
 			}
 		}
@@ -21,10 +21,10 @@ public class SelfExercise31Methods {
 				divisor++;
 			}
 		}
-		if (divisor == 0) {
-			return false;
-		} else {
+		if (divisor != 0) {
 			return true;
+		} else {
+			return false;
 		}
 	}
 }
