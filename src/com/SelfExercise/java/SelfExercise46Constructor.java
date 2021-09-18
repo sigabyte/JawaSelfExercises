@@ -10,9 +10,9 @@ public class SelfExercise46Constructor {
 		p1.printPrice();
 		System.out.println("=============");
 		
-		p2.printName();
-		p2.printdose();
-		p2.printPrice();
+		//p2.printName();
+		//p2.printdose();
+		//p2.printPrice();
 
 	}
 
@@ -26,9 +26,12 @@ class pharmacy {
 
 	pharmacy(String nameFromUser, int doseFromUser, int priceFromUser) {
 
-		name = nameFromUser;
-		dose = doseFromUser;
-		price = priceFromUser;
+		name=nameFromUser;
+		dose=doseFromUser;
+		price=priceFromUser;
+		
+		System.out.println(name+price);
+		
 
 	}
 	

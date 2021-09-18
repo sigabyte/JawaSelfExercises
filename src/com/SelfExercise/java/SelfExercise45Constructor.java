@@ -8,7 +8,7 @@ public class SelfExercise45Constructor {
 
 		v1.printName();
 		v1.calcPrice();
-		System.out.println();
+		System.out.println("------------");
 		v2.printName();
 		v2.calcPrice();
 
